@@ -3,6 +3,7 @@
     - basic bof code redirection v
     - basic integer overflow v
     - basic format string v
+    - guessing game v
     - shell code injection
 - reverse:
     - simple crackme v
