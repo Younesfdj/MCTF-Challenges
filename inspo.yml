@@ -1,8 +1,9 @@
 - pwn:
-    - basic buffer overflow
-    - basic bof code redirection
-    - basic integer overflow
+    - basic buffer overflow v
+    - basic bof code redirection v
+    - basic integer overflow v
     - basic format string
+    - shell code injection
 - reverse:
-    - simple crackme
+    - simple crackme v
     - simple crackme 2
