@@ -26,7 +26,7 @@ void flag(){
     exit(0) ;
 }
 
-void vuln(){
+void check_pass(){
     char buf[9];
     fgets(buf,9,stdin);
 
@@ -42,7 +42,7 @@ void vuln(){
 int main(){
     setup();
     puts("Type the MC HQ password to enter:");
-    vuln();
+    check_pass();
 
     return 0 ;
 }
