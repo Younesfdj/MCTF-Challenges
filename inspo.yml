@@ -3,9 +3,9 @@
     - basic bof code redirection v
     - basic integer overflow v
     - basic format string v
-    - guessing game v
-    - guessing game 2 v
     - shell code injection
 - reverse:
+    - guessing game v
+    - guessing game 2 v
     - simple crackme v
     - simple crackme 2 v
