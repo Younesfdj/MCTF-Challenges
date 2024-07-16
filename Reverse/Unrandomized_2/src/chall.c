@@ -2,6 +2,12 @@
 #include <stdlib.h>
 #include <time.h>
 
+void setup(){
+    setbuf(stdin,NULL);
+    setbuf(stdout,NULL);
+    setbuf(stderr,NULL);
+}
+
 void flag(){
     FILE* fd = fopen("flag.txt","r");
 
@@ -20,6 +26,7 @@ void flag(){
 }
 
 int main() {
+    setup();
     srand(time(NULL));
     printf("Try to guess all the random numbers, you won't make it this time\n");
 
