@@ -4,10 +4,10 @@
 # other tools to install and deploy your challenge.
 
 # Required sections
-name: "Crackme 1"
+name: "Crackme 2"
 author: "younesfdj"
 category: reverse
-description: Only MC members and reverse kiddos will know the secret password
+description: This time no one will know the secret password
 value: 500
 type: dynamic
 
@@ -39,14 +39,14 @@ host: null
 # Optional settings
 
 # connection_info is used to provide a link, hostname, or instructions on how to connect to a challenge
-connection_info: nc hostname 5400
+connection_info: nc hostname 5401
 
 # Flags specify answers that your challenge use. You should generally provide at least one.
 # Can be removed if unused
 # Accepts strings or dictionaries of CTFd API data
 flags:
   # A static case sensitive flag
-  - microCTF{w3lc0m3_d34r_m3mb3r}
+  - microCTF{g0tt4_F1nd_4n0th3r_m37h0d3}
 
 # Topics are used to help tell what techniques/information a challenge involves
 # They are generally only visible to admins
